@@ -154,3 +154,4 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/Smart_Ptr/Smart_Ptr.vcxproj.filters
