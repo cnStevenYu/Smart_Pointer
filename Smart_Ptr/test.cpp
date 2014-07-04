@@ -15,8 +15,9 @@ void test(){
 	sp2.reset();
 	SmartPointer<SimpleTest> sp3(new SimpleTest(2));
 	sp1 = sp3;
-	cout << "sp3 count" << sp3.use_count() << endl;
 	cout << "sp1 count" << sp1.use_count() << endl;
+	SmartPointer<SimpleTest> sp4(sp1);
+	cout << "sp3 count" << sp3.use_count() << endl;
 }
 int main()
 {

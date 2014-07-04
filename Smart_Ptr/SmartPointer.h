@@ -6,6 +6,7 @@ class SmartPointer{
 public:
 	SmartPointer();
 	SmartPointer(T *);
+	SmartPointer(SmartPointer<T>&);
 	~SmartPointer();
 	T* get();
 	int use_count();
